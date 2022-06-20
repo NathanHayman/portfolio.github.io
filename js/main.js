@@ -213,9 +213,9 @@ function bodyScrollingToggle(){
         // get the project details
         const details = portfolioItems[itemIndex].querySelector(".portfolio-item-details").innerHTML;
         // set the project details
-        popup.querySelector(".pp-prohect-details").innerHTML = details;
+        popup.querySelector(".pp-project-details").innerHTML = details;
         // get the project title
-        const title = portfolioItems[itemIndex].querySelector(".portfolio-items-title").innerHTML;
+        const title = portfolioItems[itemIndex].querySelector(".portfolio-item-title").innerHTML;
         // set the project title
         popup.querySelector(".pp-title h2").innerHTML = title;
         // get the project category
